@@ -21,7 +21,7 @@ node {
                         //sh "sed -E -i'' "s/(.*nightwolf:).*/\1${GIT_COMMIT_REV}/" app/deployment.yaml"
                         sh "cat app/deployment.yaml"
                         sh "git add *"
-                        sh "git commit -m 'Done by Jenkins Job changemanifest: ${env.BUILD_NUMBER}'"
+                        sh "git commit -m 'Done by Jenkins Job changemanifest file: ${env.BUILD_NUMBER}'"
                         // sh "git  push origin main"
                         sh "git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/${GIT_USERNAME}/Java-Test-app-CD/ HEAD:main"
                         // sh 'echo $GIT_USERNAME'
