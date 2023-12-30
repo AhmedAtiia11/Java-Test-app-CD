@@ -10,7 +10,7 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/zeineldin/Java-testapp-CD.git
+    repoURL: https://github.com/AhmedAtya11/Java-Test-app-CD.git
     targetRevision: HEAD
     path: app/
   destination:
