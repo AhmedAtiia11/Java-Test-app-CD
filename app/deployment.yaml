@@ -16,4 +16,4 @@ spec:
       - name: tomcat
         image: ahmedatya11/java-test-app:f28290e
         ports:
-        - containerPort: 8080
+        - containerPort: 9000
