@@ -1,2 +1,1 @@
-#
-#Argo-CD
+# Argo-CD
