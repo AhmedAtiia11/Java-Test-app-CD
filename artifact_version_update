@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
 
+set -x
 echo $GIT_COMMIT_REV
 sed -E -i'' "s/(.*java-test-app:).*/\1${GIT_COMMIT_REV}/" $1
