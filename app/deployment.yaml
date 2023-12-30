@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: ahmedatya11/java-test-app:b87ad60
+        image: ahmedatya11/java-test-app:6ca4d13
         ports:
         - containerPort: 8080
