@@ -1,8 +1,8 @@
 # Java-Test-APP-Continuous-Delivery
---------------------------------------------------------------------------------
+
 ## Overview
 This repository serves as the Continuous Delivery (CD) pipeline for the Java Test Application. The CD process automates the deployment of the application, ensuring a seamless and efficient release cycle.
---------------------------------------------------------------------------------
+
 # Pipeline Steps
 
 ### Step 1: CI Trigger
@@ -16,19 +16,19 @@ The CD repository on GitHub is updated with the latest changes, maintaining vers
 ArgoCD is triggered automatically to deploy the application by running the Application.yaml file from this repository.
 
 # How it Works
-## Integration with CI:
+## - Integration with CI:
 
 The CD process seamlessly integrates with the CI repository, ensuring a streamlined flow from code commit to deployment.
 
-## Versioned Deployment:
+## - Versioned Deployment:
 
 The deployment configuration is automatically updated with the latest version of the application image, promoting version consistency.
 
-## GitHub Repository Update:
+## - GitHub Repository Update:
 
 Changes made during the CD process are reflected in the GitHub repository, providing a clear history of deployments and changes.
 
-## ArgoCD Automation:
+## - ArgoCD Automation:
 
 ArgoCD is leveraged for automated application deployment, allowing for declarative and GitOps-driven workflows.
            
