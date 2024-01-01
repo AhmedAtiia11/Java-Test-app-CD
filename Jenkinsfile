@@ -14,7 +14,7 @@ node {
                     withCredentials([usernamePassword(credentialsId: 'github', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
                       // give the configuration to git
                         sh "git config user.email ahmedatya1288@gmail.com"
-                        sh "git config user.name AhmedAtya11"
+                        sh "git config user.name AhmedAtiia11"
                       // Modify Deployment file with the new version "taken from the CI pipeline" 
                         sh "cat app/deployment.yaml"
                         sh "sh artifact_version_update app/deployment.yaml"
